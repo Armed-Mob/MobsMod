@@ -1,0 +1,12 @@
+{
+  "creativetab.mobsmod_tab": "Mobs Mod",
+
+  "item.mobsmod.sapphire": "Sapphire",
+  "item.mobsmod.raw_sapphire": "Raw Sapphire",
+
+  "block.mobsmod.sapphire_block": "Sapphire Block",
+  "block.mobsmod.sapphire_ore_block": "Sapphire Ore",
+  "block.mobsmod.nether_sapphire_ore_block": "Sapphire Nether Ore",
+  "block.mobsmod.deepslate_sapphire_ore_block": "Sapphire Deepslate Ore",
+  "block.mobsmod.end_stone_sapphire_ore_block": "Sapphire End Ore"
+}
