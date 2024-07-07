@@ -18,15 +18,15 @@ public class ModCreativeModTabs {
     public static final RegistryObject<CreativeModeTab> MOBSMOD_TAB = CREATIVE_MODE_TABS.register("mobsmod_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SAPPHIRE.get()))
                     .title(Component.translatable("creativetab.mobsmod_tab"))
-                    .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(ModItems.SAPPHIRE.get());
-                        pOutput.accept(ModItems.RAW_SAPPHIRE.get());
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.SAPPHIRE.get());
+                        output.accept(ModItems.RAW_SAPPHIRE.get());
 
-                        pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
-                        pOutput.accept(ModBlocks.SAPPHIRE_ORE_BLOCK.get());
-                        pOutput.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE_BLOCK.get());
-                        pOutput.accept(ModBlocks.NETHER_SAPPHIRE_ORE_BLOCK.get());
-                        pOutput.accept(ModBlocks.END_STONE_SAPPHIRE_ORE_BLOCK.get());
+                        output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                        output.accept(ModBlocks.SAPPHIRE_ORE_BLOCK.get());
+                        output.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE_BLOCK.get());
+                        output.accept(ModBlocks.NETHER_SAPPHIRE_ORE_BLOCK.get());
+                        output.accept(ModBlocks.END_STONE_SAPPHIRE_ORE_BLOCK.get());
                     })
                     .build());
 
