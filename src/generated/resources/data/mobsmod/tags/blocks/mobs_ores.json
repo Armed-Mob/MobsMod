@@ -1,0 +1,9 @@
+{
+  "values": [
+    "mobsmod:sapphire_ore_block",
+    "mobsmod:deepslate_sapphire_ore_block",
+    "mobsmod:nether_sapphire_ore_block",
+    "mobsmod:end_stone_sapphire_ore_block",
+    "#forge:ores"
+  ]
+}
